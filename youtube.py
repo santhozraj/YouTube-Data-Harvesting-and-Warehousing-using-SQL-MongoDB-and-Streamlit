@@ -9,7 +9,7 @@ import streamlit as st
 # API KEY CONNECTION
 
 def api_connect():
-    api_Id="AIzaSyAWESaEnllQPIrP9ykQx8UfUQA8k-Uy0rI"
+    api_Id=("ENTER YOUR API KEY ID")
 
     api_service_name="youtube"
     api_version="v3"
@@ -169,7 +169,7 @@ def get_playlist_info(channel_id):
 
 #DATAS UPLOAD TO MONGODB
 
-client=pymongo.MongoClient("mongodb+srv://Santhozraj:Santhozraj23@cluster0.3hp8lsv.mongodb.net/?retryWrites=true&w=majority")
+client=pymongo.MongoClient("mongodb+srv://Santhozraj:("ENTER YOUR PASSWORD")@cluster0.3hp8lsv.mongodb.net/?retryWrites=true&w=majority")
 db=client["Youtube_Data"]
 
 
