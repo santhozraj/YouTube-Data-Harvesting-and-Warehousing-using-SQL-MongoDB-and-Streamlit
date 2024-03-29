@@ -194,7 +194,7 @@ def channel_table():
 
     mydb=psycopg2.connect(host="localhost",
                         user="postgres",
-                        password="Santhozraj",
+                        password="password",
                         database="youtube_data",
                         port="5432")
     cursor=mydb.cursor()
